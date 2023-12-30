@@ -3,10 +3,8 @@
 */
 
 function ejercicioTres(a = 0, x = 12){
-    let result;
     for (let i = 0; i <= x; i++){
-        result = (a*i);
-        if(i !== 5)console.log(`${a} x ${i} = ${result}`);
+        if(i !== 5)console.log(`${a} x ${i} = ${a*i}`);
     }
 }
 
