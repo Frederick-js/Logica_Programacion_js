@@ -6,9 +6,9 @@ function ejercicioTres(a = 0, x = 12){
     let result;
     for (let i = 0; i <= x; i++){
         result = (a*i);
-        console.log(`${a} x ${i} = ${result}`);
+        if(i !== 5)console.log(`${a} x ${i} = ${result}`);
     }
 }
 
-ejercicioTres(5);
+ejercicioTres(2);
 
