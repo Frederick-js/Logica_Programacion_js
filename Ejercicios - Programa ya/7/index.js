@@ -4,7 +4,7 @@
 */
 
 function ejercicioSiete (text = "Hola mundo"){
- let words = text.split(" ")
+ let words = text.split(" ");
 console.log(words);
 }
 
