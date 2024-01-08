@@ -19,4 +19,4 @@ function filtro() {
 
 
 
-filtro();
+filtro(a);
