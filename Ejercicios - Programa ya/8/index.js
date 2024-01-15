@@ -3,20 +3,47 @@
  son mayores de edad
 */
 
-
-
-let Personas = {
-    "Aleja": 26,
-    "Steve": 14,
-    "Mariela": 50,
-    "miguel": 15,
-    "Luis": 19
-};
-
-function filtro() {
-    console.log(Personas);
+function ejercicioOcho() {
+  const Personas = [
+    {
+      nombre: "Luis",
+      apellido: "Fernandez",
+      edad: 19,
+    },
+    {
+      nombre: "Carlos",
+      apellido: "Santos",
+      edad: 10,
+    },
+    {
+      nombre: "Kiko",
+      apellido: "Perez",
+      edad: 28,
+    },
+    {
+      nombre: "Ramon",
+      apellido: "Martinez",
+      edad: 22,
+    },
+    {
+      nombre: "Luis",
+      apellido: "Alvarez",
+      edad: 12,
+    },
+  ];
+  console.log(Personas);
+  console.log("Personas que se llaman luis");
+  Personas.filter((el) => {
+    if (el.nombre === "Ramon") console.log(`${el.nombre}`);
+  });
+  console.log("Mayores de edad");
+  Personas.filter((el) => {
+    if (el.edad >= 18) console.log(`${el.nombre} ${el.apellido} - ${el.edad}`);
+  });
+  console.log("Personas menores de edad");
+  Personas.filter((el) => {
+    if (el.edad < 18) console.log(`${el.nombre} ${el.apellido} - ${el.edad}`);
+  });
 }
 
-
-
-filtro(a);
+ejercicioOcho();
