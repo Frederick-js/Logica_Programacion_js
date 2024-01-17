@@ -46,4 +46,4 @@ function ejercicioOcho() {
   });
 }
 
-ejercicioOcho(a);
+ejercicioOcho();
